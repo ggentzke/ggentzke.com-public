@@ -18,6 +18,10 @@
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
+      
+      var currentYear = new Date().getFullYear();
+      var yearTextElement = document.getElementById("currentYear");
+      yearTextElement.innerHTML = currentYear;
     </script>
   </head>
   <body>
@@ -51,7 +55,7 @@
       </ul>
     </div>
     <footer class="container">
-      <p>&copy;2015 Glenn Gentzke</p>
+      <p>&copy;<span id="#currentYear">2016</span> Glenn Gentzke</p>
     </footer>
   </body>
 </html>
