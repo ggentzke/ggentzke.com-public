@@ -21,3 +21,18 @@ footer {
 .hero-unit a {
   color: chocolate;
 }
+
+.spotilink {
+  margin-right: 4px;
+}
+.spotilink:hover {
+  cursor: grab;
+  text-decoration: none;
+}
+
+.spotify-player-container {
+  max-width: 420px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+}
